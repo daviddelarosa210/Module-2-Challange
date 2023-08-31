@@ -1,0 +1,131 @@
+/* Simple CSS Reset*/
+*
+{box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+}
+/* Styling for the Header, Body, and Navbar*/
+body{
+    background-color:#F5F5F5 ;
+}
+header{
+    padding-top: 40px;
+    background-color:#F1F0E8 ;
+    padding-bottom: 50px;
+    
+}
+header h1{
+    color: #3F2305;
+    text-align: center;
+}
+header nav{
+   text-align: center;
+   margin-left: 90px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+header nav a{
+    padding-right: 40px;
+}
+/* Styling for the about me section*/
+.pfp{
+    height: 370px;
+    padding-left: 250px;
+}
+
+.about-me{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about-me{
+    text-decoration: underline;
+    display:inline-block;
+    margin-left: 900px;
+    position: absolute;
+}
+
+main section h2{
+    
+    padding-top: 20px;
+    color: #3F2305;
+}
+main section p {
+    display: inline;
+    float: right;
+    width: 1200px;
+    padding-right: 150px;
+    margin-top: 80px;
+    margin-right: 150px;
+    font-size: 20px;
+    padding-left: 350px;
+}
+
+.work{
+    padding-bottom: 200px;
+    padding-top: 100px;
+    background-color: #F1F0E8;
+
+}
+
+#work-title{
+margin-left: 600px;
+display: block;
+position: relative;
+font-size: 40px;
+padding-left: 450px;
+}
+
+.boxlink {
+    box-shadow:2px 2px 4px grey;
+    border: 4px solid #47C19C;
+      text-shadow: 1px 1px #E3D5D5;
+      padding: 10px;
+      text-align: center;
+      font-size: 30px;
+      padding: 50px;
+      background-image: url(./Images/Screen\ Shot\ 2023-08-30\ at\ 11.24.16\ PM.png);
+      width: 800px;
+      margin-left: 720px;
+      display: inline-block;
+      
+  }
+  
+  .boxlink:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16), 0 4px 20px 0 rgba(0, 0, 0, 0.12);
+      cursor: pointer;
+      background-color: #F1F0E8;
+      background-image: linear-gradient(#DBFCF2, #ECFDF8);
+      color: #47C19C;
+      border: 2px solid #919191;
+      font-size: 110%;
+  
+  }
+  .work-p{
+position: absolute;
+margin-left:500px;
+padding-bottom: 100px;
+font-size: 30px;
+  }
+
+.flexbox-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.flexbox-item-1{
+    align-items: center;
+}
+.flexbox-item-2{
+  
+}
+.flexbox-item-4{
+    align-items: center;
+    text-align: center;
+}
+.contact-me{
+    padding-top: 100px;
+    background-color: #F1F0E8;
+    padding-bottom: 100px;
+}
