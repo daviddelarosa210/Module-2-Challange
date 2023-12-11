@@ -1,236 +1,103 @@
-/* Simple CSS Reset*/
-*
-{box-sizing: border-box;
-padding: 0;
-margin: 0;
-font-family: sans-serif;
-}
-/* Styling for the Header, Body, and Navbar*/
-body{
-    background-color:#F5F5F5 ;
-}
-header{
-    padding-top: 40px;
-    background-color:#F1F0E8 ;
-    padding-bottom: 500px;
-    
-}
-header h1{
-    color: #3F2305;
-    text-align: center;
-}
-header nav{
-   text-align: center;
-   margin-left: 90px;
-    padding-top: 20px;
-    padding-right: 50px;
-}
-header nav a{
-    padding-right: 40px;
-}
-/* Styling for the about me section*/
-.pfp{
-    height: 370px;
-    padding-left: 250px;
+/* Reset and Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.about-me{
-    padding-top: 100px;
-    padding-bottom: 100px;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
 }
 
-#about-me{
-    text-decoration: underline;
-    display:inline-block;
-    margin-left: 900px;
-    position: absolute;
-}
-
-main section h2{
-    
-    padding-top: 20px;
-    color: #3F2305;
-}
-main section p {
-    display: inline;
-    float: right;
-    width: 1200px;
-    padding-right: 150px;
-    margin-top: 80px;
-    margin-right: 150px;
-    font-size: 20px;
-    padding-left: 350px;
-}
-/* Style to the Work container*/
-.work{
-    padding-bottom: 200px;
-    padding-top: 100px;
-    background-color: #F1F0E8;
-
-}
-.work-p{
-    position: absolute;
-    margin-left:500px;
-    padding-bottom: 100px;
-    font-size: 30px;
-      }
-
-#work-title{
-margin-left: 600px;
-display: block;
-position: relative;
-font-size: 40px;
-padding-left: 450px;
-}
-/* Boxlink style*/
-.boxlink {
-    box-shadow:2px 2px 4px grey;
-    border: 4px solid #47C19C;
-      text-shadow: 1px 1px #E3D5D5;
-      padding: 10px;
-      text-align: center;
-      font-size: 30px;
-      padding: 50px;
-      background-image: url(./Images/Screen\ Shot\ 2023-08-30\ at\ 11.24.16\ PM.png);
-      width: 800px;
-      margin-left: 720px;
-      display: inline-block;
-      
-  }
-  
-  .boxlink:hover {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16), 0 4px 20px 0 rgba(0, 0, 0, 0.12);
-      cursor: pointer;
-      background-color: #F1F0E8;
-      background-image: linear-gradient(#DBFCF2, #ECFDF8);
-      color: #47C19C;
-      border: 2px solid #919191;
-      font-size: 110%;
-  
-  }
-
-  .boxlink-mod-3 {
-    box-shadow:2px 2px 4px grey;
-    border: 4px solid #47C19C;
-      text-shadow: 1px 1px #E3D5D5;
-      padding: 10px;
-      text-align: center;
-      font-size: 30px;
-      padding: 50px;
-      background-image: url(./Images/Screen\ Shot\ 2023-09-10\ at\ 9.25.47\ PM.png);
-      width: 800px;
-      margin-left: 720px;
-      display: inline-block;
-      
-  }
-  
-  .boxlink-mod-3:hover {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16), 0 4px 20px 0 rgba(0, 0, 0, 0.12);
-      cursor: pointer;
-      background-color: #F1F0E8;
-      background-image: linear-gradient(#DBFCF2, #ECFDF8);
-      color: #47C19C;
-      border: 2px solid #919191;
-      font-size: 110%;
-
-      
-  
-  }
-
-  .boxlink-mod-4 {
-    box-shadow:2px 2px 4px grey;
-    border: 4px solid #47C19C;
-      text-shadow: 1px 1px #E3D5D5;
-      padding: 10px;
-      text-align: center;
-      font-size: 30px;
-      padding: 50px;
-      background-image: url(Images/Work-scheduler.png);
-      width: 800px;
-      margin-left: 720px;
-      display: inline-block;
-      
-  }
-  
-  .boxlink-mod-4:hover {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16), 0 4px 20px 0 rgba(0, 0, 0, 0.12);
-      cursor: pointer;
-      background-color: #F1F0E8;
-      background-image: linear-gradient(#DBFCF2, #ECFDF8);
-      color: #47C19C;
-      border: 2px solid #919191;
-      font-size: 110%;
-      
-  }
-  
-  .boxlink-mod-5 {
-    box-shadow:2px 2px 4px grey;
-    border: 4px solid #47C19C;
-      text-shadow: 1px 1px #E3D5D5;
-      padding: 10px;
-      text-align: center;
-      font-size: 30px;
-      padding: 50px;
-      background-image: url(Images/Work-scheduler.png);
-      width: 800px;
-      margin-left: 720px;
-      display: inline-block;}
-
-  .boxlink-mod-5:hover {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16), 0 4px 20px 0 rgba(0, 0, 0, 0.12);
-      cursor: pointer;
-      background-color: #F1F0E8;
-      background-image: linear-gradient(#DBFCF2, #ECFDF8);
-      color: #47C19C;
-      border: 2px solid #919191;
-      font-size: 110%;}
-
-
-      .boxlink-mod-6 {
-        box-shadow:2px 2px 4px grey;
-        border: 4px solid #47C19C;
-          text-shadow: 1px 1px #E3D5D5;
-          padding: 10px;
-          text-align: center;
-          font-size: 30px;
-          padding: 50px;
-          background-image: url(Images/Work-scheduler.png);
-          width: 800px;
-          margin-left: 720px;
-          display: inline-block;}
-    
-      .boxlink-mod-6:hover {
-        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16), 0 4px 20px 0 rgba(0, 0, 0, 0.12);
-          cursor: pointer;
-          background-color: #F1F0E8;
-          background-image: linear-gradient(#DBFCF2, #ECFDF8);
-          color: #47C19C;
-          border: 2px solid #919191;
-          font-size: 110%;}
-
-.flexbox-container{
+/* Layout Styles */
+.flex-container {
     display: flex;
-    flex-wrap: wrap;
-
-}
-.flexbox-item-1{
+    flex-direction: column;
     align-items: center;
-}
-.flexbox-item-2{
-  
+    margin: 20px;
 }
 
-.flexbox-item-3{
-    align-items: center;
-    flex-wrap: wrap;
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
 }
 
-.flexbox-item-4{
-    align-items: center;
+h1 {
+    color: white;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Main Section Styles */
+main {
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* About Me Section Styles */
+.about-me {
+    padding: 20px;
     text-align: center;
 }
-.contact-me{
-    padding-top: 100px;
-    background-color: #F1F0E8;
-    padding-bottom: 100px;
+
+.pfp {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Work Section Styles */
+.work {
+    padding: 20px;
+    text-align: center;
+}
+
+.work h2,
+.flexbox-item-3 h2 {
+    text-align: center;
+}
+
+.work-p {
+    margin-bottom: 20px;
+}
+
+/* Boxlink Styles */
+[class^="boxlink"],
+[class^="boxlink-mod-"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+[class^="boxlink"]:hover,
+[class^="boxlink-mod-"]:hover {
+    background-color: #45a049;
+}
+
+/* Contact Me Section Styles */
+.contact-me {
+    padding: 20px;
+    text-align: center;
 }
